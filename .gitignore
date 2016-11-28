@@ -1,0 +1,11 @@
+checkpoints/Losses_*.t7
+checkpoints/model_*.t7
+checkpoints/optimState_*.t7
+checkpoints/wrong_used_ILR/
+
+losses/testing(BSD100)
+losses/testing(Set5)
+losses/testing(Set14)
+losses/testing
+losses/wrong_used_ILR
+

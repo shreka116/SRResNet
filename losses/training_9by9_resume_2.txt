@@ -1,0 +1,412 @@
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_250.t7	
+../dataset/SR_ILSVRC2015_val_4_rgb/ILSVRC2015_5000_Set14.t7	
+../dataset/SR_ILSVRC2015_val_4_rgb/ILSVRC2015_5000_Set14.t7	
+=============================	
+{
+  v : CudaTensor - size: 1272064
+  beta2 : 0.999
+  m : CudaTensor - size: 1272064
+  beta1 : 0.9
+  learningRate : 0.0001
+  learningRateDecay : 0
+  denom : CudaTensor - size: 1272064
+  t : 779500
+}
+nn.Sequential {
+  [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> (7) -> (8) -> (9) -> (10) -> (11) -> (12) -> (13) -> (14) -> (15) -> (16) -> (17) -> (18) -> (19) -> (20) -> (21) -> output]
+  (1): cudnn.SpatialConvolution(3 -> 64, 9x9, 1,1, 4,4) without bias
+  (2): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (3): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (4): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (5): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (6): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (7): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (8): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (9): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (10): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (11): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (12): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (13): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (14): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (15): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (16): nn.Sequential {
+    [input -> (1) -> (2) -> output]
+    (1): nn.ConcatTable {
+      input
+        |`-> (1): nn.Sequential {
+        |      [input -> (1) -> (2) -> (3) -> (4) -> (5) -> (6) -> output]
+        |      (1): cudnn.SpatialBatchNormalization
+        |      (2): cudnn.ReLU
+        |      (3): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |      (4): cudnn.SpatialBatchNormalization
+        |      (5): cudnn.ReLU
+        |      (6): cudnn.SpatialConvolution(64 -> 64, 3x3, 1,1, 1,1) without bias
+        |    }
+         `-> (2): nn.Identity
+         ... -> output
+    }
+    (2): nn.CAddTable
+  }
+  (17): cudnn.SpatialFullConvolution(64 -> 64, 4x4, 2,2, 1,1)
+  (18): cudnn.ReLU
+  (19): cudnn.SpatialFullConvolution(64 -> 64, 4x4, 2,2, 1,1)
+  (20): cudnn.ReLU
+  (21): cudnn.SpatialConvolution(64 -> 3, 9x9, 1,1, 4,4) without bias
+}
+=============================	
+=> Training epoch # 251	
+ | Epoch: [251][10/3118]    Time 0.079  Data 0.065  Loss 0.00321124	
+ | Epoch: [251][20/3118]    Time 0.026  Data 0.000  Loss 0.00207397	
+ | Epoch: [251][30/3118]    Time 0.041  Data 0.027  Loss 0.00224471	
+ | Epoch: [251][40/3118]    Time 0.026  Data 0.002  Loss 0.00601356	
+ | Epoch: [251][50/3118]    Time 0.076  Data 0.051  Loss 0.00502303	
+ | Epoch: [251][60/3118]    Time 0.053  Data 0.038  Loss 0.00385513	
+ | Epoch: [251][70/3118]    Time 0.105  Data 0.091  Loss 0.00479282	
+ | Epoch: [251][80/3118]    Time 0.078  Data 0.063  Loss 0.00442963	
+ | Epoch: [251][90/3118]    Time 0.050  Data 0.035  Loss 0.00526552	
+Gradient min: -0.0018 	 max:  0.0010 	 norm: 0.0088	
+ | Epoch: [251][100/3118]    Time 0.051  Data 0.013  Loss 0.00441761	
+ | Epoch: [251][110/3118]    Time 0.035  Data 0.020  Loss 0.00385726	
+ | Epoch: [251][120/3118]    Time 0.073  Data 0.055  Loss 0.00515495	
+ | Epoch: [251][130/3118]    Time 0.044  Data 0.029  Loss 0.00375935	
+ | Epoch: [251][140/3118]    Time 0.073  Data 0.056  Loss 0.00542572	
+ | Epoch: [251][150/3118]    Time 0.056  Data 0.042  Loss 0.00383530	
+ | Epoch: [251][160/3118]    Time 0.046  Data 0.031  Loss 0.00452124	
+ | Epoch: [251][170/3118]    Time 0.052  Data 0.037  Loss 0.00446221	
+ | Epoch: [251][180/3118]    Time 0.056  Data 0.040  Loss 0.00333937	
+ | Epoch: [251][190/3118]    Time 0.037  Data 0.022  Loss 0.00354644	
+Gradient min: -0.0013 	 max:  0.0009 	 norm: 0.0073	
+ | Epoch: [251][200/3118]    Time 0.117  Data 0.066  Loss 0.00747362	
+ | Epoch: [251][210/3118]    Time 0.049  Data 0.034  Loss 0.00315282	
+ | Epoch: [251][220/3118]    Time 0.062  Data 0.044  Loss 0.00332032	
+ | Epoch: [251][230/3118]    Time 0.074  Data 0.060  Loss 0.00574662	
+ | Epoch: [251][240/3118]    Time 0.034  Data 0.018  Loss 0.00357192	
+ | Epoch: [251][250/3118]    Time 0.065  Data 0.051  Loss 0.00624152	
+ | Epoch: [251][260/3118]    Time 0.088  Data 0.072  Loss 0.00259494	
+ | Epoch: [251][270/3118]    Time 0.106  Data 0.091  Loss 0.00342646	
+ | Epoch: [251][280/3118]    Time 0.026  Data 0.000  Loss 0.00505115	
+ | Epoch: [251][290/3118]    Time 0.089  Data 0.074  Loss 0.00434529	
+Gradient min: -0.0073 	 max:  0.0028 	 norm: 0.0227	
+ | Epoch: [251][300/3118]    Time 0.049  Data 0.007  Loss 0.00621540	
+ | Epoch: [251][310/3118]    Time 0.026  Data 0.004  Loss 0.00446401	
+ | Epoch: [251][320/3118]    Time 0.074  Data 0.059  Loss 0.00260096	
+ | Epoch: [251][330/3118]    Time 0.040  Data 0.025  Loss 0.00459296	
+ | Epoch: [251][340/3118]    Time 0.064  Data 0.049  Loss 0.00387946	
+ | Epoch: [251][350/3118]    Time 0.025  Data 0.000  Loss 0.00344461	
+ | Epoch: [251][360/3118]    Time 0.043  Data 0.028  Loss 0.00589443	
+ | Epoch: [251][370/3118]    Time 0.053  Data 0.037  Loss 0.00186770	
+ | Epoch: [251][380/3118]    Time 0.033  Data 0.018  Loss 0.00464145	
+ | Epoch: [251][390/3118]    Time 0.026  Data 0.000  Loss 0.00346376	
+Gradient min: -0.0015 	 max:  0.0010 	 norm: 0.0061	
+ | Epoch: [251][400/3118]    Time 0.084  Data 0.034  Loss 0.00331948	
+ | Epoch: [251][410/3118]    Time 0.102  Data 0.088  Loss 0.00533790	
+ | Epoch: [251][420/3118]    Time 0.069  Data 0.054  Loss 0.00222559	
+ | Epoch: [251][430/3118]    Time 0.028  Data 0.000  Loss 0.00706314	
+ | Epoch: [251][440/3118]    Time 0.026  Data 0.000  Loss 0.00412094	
+ | Epoch: [251][450/3118]    Time 0.092  Data 0.077  Loss 0.00429678	
+ | Epoch: [251][460/3118]    Time 0.080  Data 0.065  Loss 0.00330128	
+ | Epoch: [251][470/3118]    Time 0.030  Data 0.008  Loss 0.00769527	
+ | Epoch: [251][480/3118]    Time 0.030  Data 0.006  Loss 0.00476705	
+ | Epoch: [251][490/3118]    Time 0.048  Data 0.033  Loss 0.00485293	
+Gradient min: -0.0004 	 max:  0.0006 	 norm: 0.0070	
+ | Epoch: [251][500/3118]    Time 0.092  Data 0.055  Loss 0.00272452	
+ | Epoch: [251][510/3118]    Time 0.034  Data 0.020  Loss 0.00416748	
+ | Epoch: [251][520/3118]    Time 0.086  Data 0.071  Loss 0.00345758	
+ | Epoch: [251][530/3118]    Time 0.028  Data 0.000  Loss 0.00356007	
+ | Epoch: [251][540/3118]    Time 0.084  Data 0.068  Loss 0.00624706	
+ | Epoch: [251][550/3118]    Time 0.068  Data 0.053  Loss 0.00437076	
+ | Epoch: [251][560/3118]    Time 0.051  Data 0.036  Loss 0.00471971	
+ | Epoch: [251][570/3118]    Time 0.043  Data 0.028  Loss 0.00390469	
+ | Epoch: [251][580/3118]    Time 0.027  Data 0.005  Loss 0.00342127	
+ | Epoch: [251][590/3118]    Time 0.028  Data 0.000  Loss 0.00512665	
+Gradient min: -0.0019 	 max:  0.0009 	 norm: 0.0086	
+ | Epoch: [251][600/3118]    Time 0.061  Data 0.022  Loss 0.00479472	
+ | Epoch: [251][610/3118]    Time 0.065  Data 0.050  Loss 0.00252999	
+ | Epoch: [251][620/3118]    Time 0.073  Data 0.058  Loss 0.00295853	
+ | Epoch: [251][630/3118]    Time 0.083  Data 0.066  Loss 0.00536687	
+ | Epoch: [251][640/3118]    Time 0.057  Data 0.039  Loss 0.00374222	
+ | Epoch: [251][650/3118]    Time 0.525  Data 0.508  Loss 0.00252277	
+ | Epoch: [251][660/3118]    Time 0.689  Data 0.674  Loss 0.00420859	
+ | Epoch: [251][670/3118]    Time 0.814  Data 0.798  Loss 0.00410377	
+ | Epoch: [251][680/3118]    Time 0.979  Data 0.963  Loss 0.00458964	
+ | Epoch: [251][690/3118]    Time 1.108  Data 1.094  Loss 0.00400207	
+Gradient min: -0.0007 	 max:  0.0013 	 norm: 0.0072	
+ | Epoch: [251][700/3118]    Time 1.124  Data 1.082  Loss 0.00388599	
+ | Epoch: [251][710/3118]    Time 1.129  Data 1.111  Loss 0.00309059	
+ | Epoch: [251][720/3118]    Time 0.764  Data 0.749  Loss 0.00443500	
+ | Epoch: [251][730/3118]    Time 0.961  Data 0.946  Loss 0.00523240	
+ | Epoch: [251][740/3118]    Time 0.641  Data 0.624  Loss 0.00381214	
+ | Epoch: [251][750/3118]    Time 0.753  Data 0.729  Loss 0.00502895	
+ | Epoch: [251][760/3118]    Time 1.064  Data 1.049  Loss 0.00670569	
+ | Epoch: [251][770/3118]    Time 1.238  Data 1.222  Loss 0.00398278	
+ | Epoch: [251][780/3118]    Time 1.109  Data 1.092  Loss 0.00353484	
+ | Epoch: [251][790/3118]    Time 1.207  Data 1.188  Loss 0.00467348	
+Gradient min: -0.0048 	 max:  0.0019 	 norm: 0.0206	
+ | Epoch: [251][800/3118]    Time 1.248  Data 1.209  Loss 0.00350867	
+ | Epoch: [251][810/3118]    Time 1.053  Data 1.032  Loss 0.00372052	
+ | Epoch: [251][820/3118]    Time 0.556  Data 0.540  Loss 0.00335760	
+ | Epoch: [251][830/3118]    Time 0.778  Data 0.762  Loss 0.00322415	
+ | Epoch: [251][840/3118]    Time 0.585  Data 0.567  Loss 0.00324222	
+ | Epoch: [251][850/3118]    Time 0.364  Data 0.344  Loss 0.00507008	
+ | Epoch: [251][860/3118]    Time 0.029  Data 0.000  Loss 0.00288455	
+ | Epoch: [251][870/3118]    Time 0.476  Data 0.460  Loss 0.00308539	
+ | Epoch: [251][880/3118]    Time 0.414  Data 0.398  Loss 0.00592399	
+ | Epoch: [251][890/3118]    Time 0.247  Data 0.231  Loss 0.00197112	
+Gradient min: -0.0014 	 max:  0.0010 	 norm: 0.0065	
+ | Epoch: [251][900/3118]    Time 1.133  Data 1.093  Loss 0.00704169	
+ | Epoch: [251][910/3118]    Time 0.556  Data 0.541  Loss 0.00473716	
+ | Epoch: [251][920/3118]    Time 0.699  Data 0.684  Loss 0.00272822	
+ | Epoch: [251][930/3118]    Time 0.566  Data 0.549  Loss 0.00276952	
+ | Epoch: [251][940/3118]    Time 0.855  Data 0.835  Loss 0.00490817	
+ | Epoch: [251][950/3118]    Time 0.308  Data 0.288  Loss 0.00206924	
+ | Epoch: [251][960/3118]    Time 0.045  Data 0.029  Loss 0.00576493	
+ | Epoch: [251][970/3118]    Time 0.410  Data 0.384  Loss 0.00312838	
+ | Epoch: [251][980/3118]    Time 0.524  Data 0.508  Loss 0.00406826	
+ | Epoch: [251][990/3118]    Time 1.334  Data 1.319  Loss 0.00614479	
+Gradient min: -0.0008 	 max:  0.0015 	 norm: 0.0055	
+ | Epoch: [251][1000/3118]    Time 1.082  Data 1.040  Loss 0.00353626	
+ | Epoch: [251][1010/3118]    Time 0.318  Data 0.300  Loss 0.00618771	
+ | Epoch: [251][1020/3118]    Time 1.210  Data 1.195  Loss 0.00603860	
+ | Epoch: [251][1030/3118]    Time 1.004  Data 0.988  Loss 0.00259679	
+ | Epoch: [251][1040/3118]    Time 0.879  Data 0.864  Loss 0.00400118	
+ | Epoch: [251][1050/3118]    Time 1.055  Data 1.039  Loss 0.00304411	
+ | Epoch: [251][1060/3118]    Time 1.151  Data 1.136  Loss 0.00442469	

@@ -1,0 +1,202 @@
+../dataset/SR_ILSVRC2015_val_4_rgb/ILSVRC2015_5000_Set5.t7	
+../dataset/SR_ILSVRC2015_val_4_rgb/ILSVRC2015_5000_Set5.t7	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_10.t7	
+ | Test: [0][1/5]    Time 0.499  loss 0.0019 PSNR 29.083	
+ | Test: [0][2/5]    Time 0.345  loss 0.0012 PSNR 32.115	
+ | Test: [0][3/5]    Time 0.784  loss 0.0009 PSNR 32.906	
+ | Test: [0][4/5]    Time 0.241  loss 0.0012 PSNR 32.270	
+ | Test: [0][5/5]    Time 0.212  loss 0.0040 PSNR 25.554	
+ * Results loss: 0.0018  PSNR: 30.386	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_20.t7	
+ | Test: [0][1/5]    Time 0.122  loss 0.0011 PSNR 32.572	
+ | Test: [0][2/5]    Time 0.161  loss 0.0015 PSNR 29.914	
+ | Test: [0][3/5]    Time 0.122  loss 0.0009 PSNR 32.906	
+ | Test: [0][4/5]    Time 0.087  loss 0.0030 PSNR 26.892	
+ | Test: [0][5/5]    Time 0.253  loss 0.0007 PSNR 33.281	
+ * Results loss: 0.0014  PSNR: 31.113	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_30.t7	
+ | Test: [0][1/5]    Time 0.111  loss 0.0028 PSNR 27.164	
+ | Test: [0][2/5]    Time 0.112  loss 0.0014 PSNR 30.016	
+ | Test: [0][3/5]    Time 0.094  loss 0.0011 PSNR 32.726	
+ | Test: [0][4/5]    Time 0.151  loss 0.0008 PSNR 33.274	
+ | Test: [0][5/5]    Time 0.265  loss 0.0007 PSNR 33.276	
+ * Results loss: 0.0014  PSNR: 31.291	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_40.t7	
+ | Test: [0][1/5]    Time 0.124  loss 0.0008 PSNR 33.327	
+ | Test: [0][2/5]    Time 0.107  loss 0.0014 PSNR 30.115	
+ | Test: [0][3/5]    Time 0.077  loss 0.0011 PSNR 32.722	
+ | Test: [0][4/5]    Time 0.070  loss 0.0027 PSNR 27.304	
+ | Test: [0][5/5]    Time 0.261  loss 0.0007 PSNR 33.253	
+ * Results loss: 0.0013  PSNR: 31.344	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_50.t7	
+ | Test: [0][1/5]    Time 0.114  loss 0.0007 PSNR 33.822	
+ | Test: [0][2/5]    Time 0.093  loss 0.0014 PSNR 30.180	
+ | Test: [0][3/5]    Time 0.234  loss 0.0007 PSNR 33.360	
+ | Test: [0][4/5]    Time 0.065  loss 0.0026 PSNR 27.484	
+ | Test: [0][5/5]    Time 0.076  loss 0.0011 PSNR 32.798	
+ * Results loss: 0.0013  PSNR: 31.529	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_60.t7	
+ | Test: [0][1/5]    Time 0.116  loss 0.0007 PSNR 33.796	
+ | Test: [0][2/5]    Time 0.093  loss 0.0013 PSNR 30.232	
+ | Test: [0][3/5]    Time 0.069  loss 0.0010 PSNR 32.838	
+ | Test: [0][4/5]    Time 0.073  loss 0.0025 PSNR 27.700	
+ | Test: [0][5/5]    Time 0.233  loss 0.0007 PSNR 33.357	
+ * Results loss: 0.0012  PSNR: 31.585	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_70.t7	
+ | Test: [0][1/5]    Time 0.098  loss 0.0026 PSNR 27.554	
+ | Test: [0][2/5]    Time 0.097  loss 0.0014 PSNR 30.148	
+ | Test: [0][3/5]    Time 0.071  loss 0.0010 PSNR 32.843	
+ | Test: [0][4/5]    Time 0.095  loss 0.0007 PSNR 33.942	
+ | Test: [0][5/5]    Time 0.257  loss 0.0007 PSNR 33.359	
+ * Results loss: 0.0013  PSNR: 31.569	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_80.t7	
+ | Test: [0][1/5]    Time 0.105  loss 0.0014 PSNR 30.145	
+ | Test: [0][2/5]    Time 0.094  loss 0.0007 PSNR 34.095	
+ | Test: [0][3/5]    Time 0.069  loss 0.0025 PSNR 27.690	
+ | Test: [0][4/5]    Time 0.072  loss 0.0010 PSNR 32.823	
+ | Test: [0][5/5]    Time 0.220  loss 0.0007 PSNR 33.383	
+ * Results loss: 0.0012  PSNR: 31.627	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_90.t7	
+ | Test: [0][1/5]    Time 0.103  loss 0.0010 PSNR 32.843	
+ | Test: [0][2/5]    Time 0.093  loss 0.0007 PSNR 34.164	
+ | Test: [0][3/5]    Time 0.084  loss 0.0013 PSNR 30.350	
+ | Test: [0][4/5]    Time 0.069  loss 0.0024 PSNR 27.836	
+ | Test: [0][5/5]    Time 0.241  loss 0.0006 PSNR 33.439	
+ * Results loss: 0.0012  PSNR: 31.726	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_100.t7	
+ | Test: [0][1/5]    Time 0.084  loss 0.0025 PSNR 27.717	
+ | Test: [0][2/5]    Time 0.096  loss 0.0013 PSNR 30.307	
+ | Test: [0][3/5]    Time 0.092  loss 0.0007 PSNR 34.091	
+ | Test: [0][4/5]    Time 0.069  loss 0.0010 PSNR 32.830	
+ | Test: [0][5/5]    Time 0.243  loss 0.0007 PSNR 33.389	
+ * Results loss: 0.0012  PSNR: 31.667	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_110.t7	
+ | Test: [0][1/5]    Time 0.096  loss 0.0010 PSNR 32.883	
+ | Test: [0][2/5]    Time 0.106  loss 0.0013 PSNR 30.421	
+ | Test: [0][3/5]    Time 0.106  loss 0.0007 PSNR 34.307	
+ | Test: [0][4/5]    Time 0.230  loss 0.0006 PSNR 33.469	
+ | Test: [0][5/5]    Time 0.067  loss 0.0024 PSNR 27.896	
+ * Results loss: 0.0012  PSNR: 31.795	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_120.t7	
+ | Test: [0][1/5]    Time 0.099  loss 0.0023 PSNR 27.993	
+ | Test: [0][2/5]    Time 0.097  loss 0.0007 PSNR 34.219	
+ | Test: [0][3/5]    Time 0.076  loss 0.0010 PSNR 32.908	
+ | Test: [0][4/5]    Time 0.080  loss 0.0013 PSNR 30.365	
+ | Test: [0][5/5]    Time 0.223  loss 0.0006 PSNR 33.491	
+ * Results loss: 0.0012  PSNR: 31.795	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_130.t7	
+ | Test: [0][1/5]    Time 0.098  loss 0.0013 PSNR 30.358	
+ | Test: [0][2/5]    Time 0.062  loss 0.0024 PSNR 27.911	
+ | Test: [0][3/5]    Time 0.075  loss 0.0010 PSNR 32.884	
+ | Test: [0][4/5]    Time 0.103  loss 0.0007 PSNR 34.212	
+ | Test: [0][5/5]    Time 0.226  loss 0.0006 PSNR 33.535	
+ * Results loss: 0.0012  PSNR: 31.780	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_140.t7	
+ | Test: [0][1/5]    Time 0.089  loss 0.0010 PSNR 32.868	
+ | Test: [0][2/5]    Time 0.065  loss 0.0024 PSNR 27.885	
+ | Test: [0][3/5]    Time 0.095  loss 0.0013 PSNR 30.321	
+ | Test: [0][4/5]    Time 0.085  loss 0.0007 PSNR 34.346	
+ | Test: [0][5/5]    Time 0.228  loss 0.0006 PSNR 33.484	
+ * Results loss: 0.0012  PSNR: 31.781	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_150.t7	
+ | Test: [0][1/5]    Time 0.108  loss 0.0010 PSNR 32.898	
+ | Test: [0][2/5]    Time 0.095  loss 0.0013 PSNR 30.326	
+ | Test: [0][3/5]    Time 0.216  loss 0.0006 PSNR 33.557	
+ | Test: [0][4/5]    Time 0.073  loss 0.0023 PSNR 28.013	
+ | Test: [0][5/5]    Time 0.085  loss 0.0006 PSNR 34.524	
+ * Results loss: 0.0012  PSNR: 31.864	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_160.t7	
+ | Test: [0][1/5]    Time 0.094  loss 0.0010 PSNR 32.932	
+ | Test: [0][2/5]    Time 0.090  loss 0.0013 PSNR 30.385	
+ | Test: [0][3/5]    Time 0.067  loss 0.0023 PSNR 27.937	
+ | Test: [0][4/5]    Time 0.113  loss 0.0006 PSNR 34.525	
+ | Test: [0][5/5]    Time 0.230  loss 0.0006 PSNR 33.487	
+ * Results loss: 0.0012  PSNR: 31.853	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_170.t7	
+ | Test: [0][1/5]    Time 0.098  loss 0.0007 PSNR 34.314	
+ | Test: [0][2/5]    Time 0.059  loss 0.0010 PSNR 32.906	
+ | Test: [0][3/5]    Time 0.235  loss 0.0006 PSNR 33.512	
+ | Test: [0][4/5]    Time 0.065  loss 0.0023 PSNR 28.034	
+ | Test: [0][5/5]    Time 0.080  loss 0.0013 PSNR 30.440	
+ * Results loss: 0.0012  PSNR: 31.841	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_180.t7	
+ | Test: [0][1/5]    Time 0.093  loss 0.0010 PSNR 32.920	
+ | Test: [0][2/5]    Time 0.090  loss 0.0006 PSNR 34.402	
+ | Test: [0][3/5]    Time 0.069  loss 0.0023 PSNR 28.082	
+ | Test: [0][4/5]    Time 0.104  loss 0.0013 PSNR 30.348	
+ | Test: [0][5/5]    Time 0.250  loss 0.0006 PSNR 33.496	
+ * Results loss: 0.0012  PSNR: 31.850	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_190.t7	
+ | Test: [0][1/5]    Time 0.096  loss 0.0006 PSNR 34.603	
+ | Test: [0][2/5]    Time 0.067  loss 0.0023 PSNR 28.075	
+ | Test: [0][3/5]    Time 0.228  loss 0.0006 PSNR 33.544	
+ | Test: [0][4/5]    Time 0.076  loss 0.0013 PSNR 30.447	
+ | Test: [0][5/5]    Time 0.072  loss 0.0010 PSNR 32.916	
+ * Results loss: 0.0012  PSNR: 31.917	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_200.t7	
+ | Test: [0][1/5]    Time 0.119  loss 0.0013 PSNR 30.271	
+ | Test: [0][2/5]    Time 0.095  loss 0.0007 PSNR 34.284	
+ | Test: [0][3/5]    Time 0.076  loss 0.0010 PSNR 32.855	
+ | Test: [0][4/5]    Time 0.073  loss 0.0023 PSNR 28.044	
+ | Test: [0][5/5]    Time 0.259  loss 0.0006 PSNR 33.563	
+ * Results loss: 0.0012  PSNR: 31.803	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_210.t7	
+ | Test: [0][1/5]    Time 0.088  loss 0.0023 PSNR 28.062	
+ | Test: [0][2/5]    Time 0.090  loss 0.0013 PSNR 30.402	
+ | Test: [0][3/5]    Time 0.093  loss 0.0006 PSNR 34.475	
+ | Test: [0][4/5]    Time 0.079  loss 0.0010 PSNR 32.914	
+ | Test: [0][5/5]    Time 0.226  loss 0.0006 PSNR 33.449	
+ * Results loss: 0.0012  PSNR: 31.860	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_220.t7	
+ | Test: [0][1/5]    Time 0.096  loss 0.0013 PSNR 30.454	
+ | Test: [0][2/5]    Time 0.067  loss 0.0010 PSNR 32.894	
+ | Test: [0][3/5]    Time 0.230  loss 0.0006 PSNR 33.541	
+ | Test: [0][4/5]    Time 0.073  loss 0.0006 PSNR 34.577	
+ | Test: [0][5/5]    Time 0.076  loss 0.0023 PSNR 27.930	
+ * Results loss: 0.0012  PSNR: 31.879	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_230.t7	
+ | Test: [0][1/5]    Time 0.093  loss 0.0010 PSNR 32.863	
+ | Test: [0][2/5]    Time 0.100  loss 0.0013 PSNR 30.333	
+ | Test: [0][3/5]    Time 0.126  loss 0.0006 PSNR 34.293	
+ | Test: [0][4/5]    Time 0.234  loss 0.0006 PSNR 33.471	
+ | Test: [0][5/5]    Time 0.067  loss 0.0023 PSNR 28.046	
+ * Results loss: 0.0012  PSNR: 31.801	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_240.t7	
+ | Test: [0][1/5]    Time 0.082  loss 0.0023 PSNR 28.065	
+ | Test: [0][2/5]    Time 0.087  loss 0.0010 PSNR 32.913	
+ | Test: [0][3/5]    Time 0.098  loss 0.0006 PSNR 34.589	
+ | Test: [0][4/5]    Time 0.230  loss 0.0006 PSNR 33.554	
+ | Test: [0][5/5]    Time 0.074  loss 0.0012 PSNR 30.547	
+ * Results loss: 0.0011  PSNR: 31.934	
+=> Loading checkpoint /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/latest.t7	
+=> Resuming model from /media/shrek/UbuntuFiles/codes/SuperResolution/SRResNet_2/checkpoints/model_250.t7	
+ | Test: [0][1/5]    Time 0.097  loss 0.0013 PSNR 30.430	
+ | Test: [0][2/5]    Time 0.119  loss 0.0006 PSNR 34.543	
+ | Test: [0][3/5]    Time 0.074  loss 0.0010 PSNR 32.931	
+ | Test: [0][4/5]    Time 0.224  loss 0.0006 PSNR 33.555	
+ | Test: [0][5/5]    Time 0.066  loss 0.0023 PSNR 28.018	
+ * Results loss: 0.0012  PSNR: 31.895	
