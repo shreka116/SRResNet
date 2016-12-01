@@ -4,7 +4,9 @@ This is the impelmentation of SRResNet, a part of SRGAN "Ledig, Christian, et al
 
 
 Modification made from the paper:
+
 1) residual blocks 	      -->  preactivation residual blocks
+
 2) first and last conv. layer -->  9x9 conv. layer
 
 
